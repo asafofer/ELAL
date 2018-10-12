@@ -12,5 +12,5 @@ app.get('*', (req, res) => res.redirect('/'));
 
 const PORT = process.env.PORT || 1337;
 app.listen(PORT, () => {
-  console.log('up and running');
+  console.log('ELAL is up and running');
 });
